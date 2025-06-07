@@ -50,7 +50,3 @@ RUN echo '. "$NVS_HOME/nvs.sh"' >> /root/.bashrc && \
 
 # 作業ディレクトリを作成
 WORKDIR /workspace
-
-# Node.jsのパッケージインストール
-COPY package*.json ./
-RUN bash -c ". $NVS_HOME/nvs.sh && nvs use lts && npm ci"

@@ -6,7 +6,6 @@
   "mounts": [
     "source=${localWorkspaceFolder},target=/workspace,type=cached",
     "source=${USERPROFILE}/.aws,target=/root/.aws,type=ro",
-    "source=node_modules_vol,target=/workspace/node_modules,type=volume",
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
   ],
   "customizations": {
