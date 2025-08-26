@@ -2,7 +2,8 @@
   "version": "0.2",
   "words": [
     "graphviz",
-    "ipafont"
+    "ipafont",
+    "Nuxt"
   ],
   "ignorePaths": [
     ".devcontainer/**"
