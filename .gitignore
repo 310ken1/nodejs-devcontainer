@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode,node,git
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,visualstudiocode,node,git
+# Created by https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode,git,node,nuxtjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,visualstudiocode,git,node,nuxtjs
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -171,6 +171,17 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+### NuxtJS ###
+# Generated dirs
+.nuxt-*
+.output
+.gen
+
+# Node dependencies
+node_modules
+
+# System files
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -216,4 +227,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode,node,git
+# End of https://www.toptal.com/developers/gitignore/api/windows,linux,visualstudiocode,git,node,nuxtjs
